@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_list_view"
+  style="@style/CardViewSeparatorImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+  app:cardPreventCornerOverlap="false"
+  app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cr.ac.tec.vis_u.ImageViews.SquareImageView
+            android:id="@+id/career_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/imageViewBackground"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+          android:id="@+id/career_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+          android:paddingTop="8dp"
+          android:paddingBottom="8dp"
+            android:background="@color/colorToolbar"
+          android:gravity="center"
+          android:textColor="@android:color/white"
+          android:textSize="@dimen/main_grid_text_size"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

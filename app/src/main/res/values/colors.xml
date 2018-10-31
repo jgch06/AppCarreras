@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorTranslucent">#55000000</color>
+    <color name="darkBlue">#1A1A1A</color>
+    <color name="colorLightGray">#404040</color>
+    <color name="colorProgressBar">#065FFF</color>
+    <color name="colorToolbar">#00457C</color>
+    <color name="imageViewBackground">#010120</color>
+    <color name="colorMicrosoftBlue">#0C2D60</color>
+    <color name="colorAppBackground">#040438</color>
+    <color name="colorTitle">#1A8CFE</color>
+    <color name="colorCardviewTitle">#4E4E4E</color>
+</resources>

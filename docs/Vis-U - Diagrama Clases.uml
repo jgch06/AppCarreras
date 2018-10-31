@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cr.ac.tec.vis_u.Activities</OriginalElement>
+  <nodes>
+    <node x="429.0" y="1701.0">cr.ac.tec.vis_u.Activities.SectionAbout</node>
+    <node x="0.0" y="1701.0">cr.ac.tec.vis_u.Utility.ConnectionDetector</node>
+    <node x="1375.203273809523" y="413.0">cr.ac.tec.vis_u.Holders.ImageHolderCareerMenu</node>
+    <node x="3390.7083333333335" y="190.0">cr.ac.tec.vis_u.Parcelables.SectionImageParcelable</node>
+    <node x="2123.703273809523" y="845.0">cr.ac.tec.vis_u.Adapters.ImageAdapterSectionMenu</node>
+    <node x="4140.758333333333" y="545.5">cr.ac.tec.vis_u.Models.Option</node>
+    <node x="3719.758333333333" y="457.0">cr.ac.tec.vis_u.Activities.SectionImageActivity</node>
+    <node x="1917.2032738095231" y="534.5">cr.ac.tec.vis_u.Models.Section</node>
+    <node x="3228.5676953933744" y="867.0">cr.ac.tec.vis_u.Adapters.OptionAdapterSectionMenu</node>
+    <node x="3732.2083333333335" y="0.0">cr.ac.tec.vis_u.Holders.SectionImageHolder</node>
+    <node x="874.2760287267079" y="424.0">cr.ac.tec.vis_u.Activities.SectionVideoActivity</node>
+    <node x="1282.203273809523" y="224.0">cr.ac.tec.vis_u.Models.SectionVideo</node>
+    <node x="2900.5676953933744" y="567.5">cr.ac.tec.vis_u.Models.Subsection</node>
+    <node x="2302.4426953933744" y="190.0">cr.ac.tec.vis_u.Parcelables.SectionVideoParcelable</node>
+    <node x="2054.276028726708" y="1241.0">cr.ac.tec.vis_u.Activities.SectionMenuActivity</node>
+    <node x="333.27602872670786" y="867.0">cr.ac.tec.vis_u.Parcelables.CareerParcelable</node>
+    <node x="1228.0" y="1701.0">cr.ac.tec.vis_u.ConfigurationFiles.Config</node>
+    <node x="2134.203273809523" y="424.0">cr.ac.tec.vis_u.Holders.ImageHolderSectionMenu</node>
+    <node x="3775.7083333333335" y="179.0">cr.ac.tec.vis_u.Adapters.SectionImageAdapter</node>
+    <node x="323.0" y="1230.0">cr.ac.tec.vis_u.Activities.InternetConnectionActivity</node>
+    <node x="1289.7760287267079" y="1263.0">cr.ac.tec.vis_u.Activities.MainActivity</node>
+    <node x="601.7760287267079" y="157.5">cr.ac.tec.vis_u.YouTubeEventListieners.CustomPlaybackEventListener</node>
+    <node x="715.0" y="1701.0">cr.ac.tec.vis_u.GlideLoggingListeners.LoggingListener</node>
+    <node x="677.2760287267079" y="545.5">cr.ac.tec.vis_u.Models.Career</node>
+    <node x="0.0" y="1318.0">cr.ac.tec.vis_u.Activities.LogoSplashActivity</node>
+    <node x="893.7760287267079" y="146.5">cr.ac.tec.vis_u.YouTubeEventListieners.CustomStateChangeListener</node>
+    <node x="1515.152549171842" y="146.0">cr.ac.tec.vis_u.Parcelables.SectionParcelable</node>
+    <node x="3955.2083333333335" y="22.5">cr.ac.tec.vis_u.Models.SectionImage</node>
+    <node x="1415.953273809523" y="878.0">cr.ac.tec.vis_u.Adapters.ImageAdapterCareerMenu</node>
+    <node x="3057.5676953933744" y="424.0">cr.ac.tec.vis_u.Holders.OptionHolderSectionMenu</node>
+    <node x="3142.0676953933744" y="1164.0">cr.ac.tec.vis_u.Activities.SectionActivity</node>
+    <node x="1476.0" y="1701.0">cr.ac.tec.vis_u.ImageViews.SquareImageView</node>
+    <node x="962.0" y="1701.0">cr.ac.tec.vis_u.Utility.URLBuilder</node>
+    <node x="2459.5676953933744" y="922.5">cr.ac.tec.vis_u.Decorators.SpaceItemDecoration</node>
+    <node x="2782.0416666666665" y="179.0">cr.ac.tec.vis_u.Parcelables.SubsectionParcelable</node>
+    <node x="2641.5676953933744" y="556.0">cr.ac.tec.vis_u.Holders.SubsectionHolder</node>
+    <node x="2703.0676953933744" y="889.0">cr.ac.tec.vis_u.Adapters.SubsectionAdapter</node>
+    <node x="2550.5676953933744" y="1252.0">cr.ac.tec.vis_u.Activities.SubsectionActivity</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cr.ac.tec.vis_u.Activities.MainActivity" target="cr.ac.tec.vis_u.Adapters.ImageAdapterCareerMenu">
+      <point x="55.85714285714289" y="-147.0" />
+      <point x="1541.1331715838508" y="1104.0" />
+      <point x="1635.703273809523" y="1104.0" />
+      <point x="73.25" y="81.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionMenuActivity" target="cr.ac.tec.vis_u.Adapters.ImageAdapterSectionMenu">
+      <point x="36.91666666666674" y="-169.0" />
+      <point x="2312.6926953933744" y="1104.0" />
+      <point x="2357.703273809523" y="1104.0" />
+      <point x="78.0" y="114.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionVideoActivity" target="cr.ac.tec.vis_u.YouTubeEventListieners.CustomPlaybackEventListener">
+      <point x="-136.2857142857144" y="-180.0" />
+      <point x="976.4903144409934" y="383.0" />
+      <point x="805.7760287267079" y="383.0" />
+      <point x="68.0" y="92.0" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Holders.OptionHolderSectionMenu" target="cr.ac.tec.vis_u.Parcelables.SubsectionParcelable">
+      <point x="0.0" y="-180.0" />
+      <point x="3296.5676953933744" y="373.0" />
+      <point x="3060.2916666666665" y="373.0" />
+      <point x="92.75" y="70.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Holders.OptionHolderSectionMenu" target="cr.ac.tec.vis_u.Parcelables.SectionVideoParcelable">
+      <point x="-159.33333333333348" y="-180.0" />
+      <point x="3137.234362060041" y="383.0" />
+      <point x="2573.9426953933744" y="383.0" />
+      <point x="90.5" y="59.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SubsectionActivity" target="cr.ac.tec.vis_u.Parcelables.SubsectionParcelable">
+      <point x="-60.14285714285711" y="-158.0" />
+      <point x="2700.9248382505175" y="1124.0" />
+      <point x="2631.0676953933744" y="1124.0" />
+      <point x="2631.0676953933744" y="393.0" />
+      <point x="2874.7916666666665" y="393.0" />
+      <point x="-92.75" y="70.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SubsectionActivity" target="cr.ac.tec.vis_u.Adapters.SubsectionAdapter">
+      <point x="2.8421709430404007E-14" y="-158.0" />
+      <point x="-58.0" y="70.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionMenuActivity" target="cr.ac.tec.vis_u.Models.Section">
+      <point x="-110.75" y="-169.0" />
+      <point x="2165.026028726708" y="1094.0" />
+      <point x="1966.4532738095231" y="1094.0" />
+      <point x="-49.25" y="69.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionMenuActivity" target="cr.ac.tec.vis_u.Decorators.SpaceItemDecoration">
+      <point x="110.75" y="-169.0" />
+      <point x="2386.526028726708" y="1134.0" />
+      <point x="2509.8801953933744" y="1134.0" />
+      <point x="-30.1875" y="37.0" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Adapters.ImageAdapterCareerMenu" target="cr.ac.tec.vis_u.Models.Career">
+      <point x="-73.25" y="-81.5" />
+      <point x="1489.203273809523" y="825.0" />
+      <point x="824.7760287267079" y="825.0" />
+      <point x="59.0" y="58.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionActivity" target="cr.ac.tec.vis_u.Models.Option">
+      <point x="248.9999999999999" y="-246.0" />
+      <point x="3681.5676953933744" y="1144.0" />
+      <point x="4306.758333333333" y="1144.0" />
+      <point x="4306.758333333333" y="825.0" />
+      <point x="4328.008333333333" y="825.0" />
+      <point x="80.25" y="58.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Adapters.SubsectionAdapter" target="cr.ac.tec.vis_u.Models.Subsection">
+      <point x="58.0" y="-70.5" />
+      <point x="2877.0676953933744" y="825.0" />
+      <point x="2923.401028726708" y="825.0" />
+      <point x="-45.66666666666674" y="36.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Adapters.SectionImageAdapter" target="cr.ac.tec.vis_u.Holders.SectionImageHolder">
+      <point x="-58.0" y="-70.5" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.MainActivity" target="cr.ac.tec.vis_u.Decorators.SpaceItemDecoration">
+      <point x="111.71428571428578" y="-147.0" />
+      <point x="1596.9903144409936" y="1114.0" />
+      <point x="2469.6301953933744" y="1114.0" />
+      <point x="-70.4375" y="37.0" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionImageActivity" target="cr.ac.tec.vis_u.Adapters.SectionImageAdapter">
+      <point x="0.0" y="-147.0" />
+      <point x="3920.258333333333" y="393.0" />
+      <point x="3949.7083333333335" y="393.0" />
+      <point x="58.0" y="70.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionImageActivity" target="cr.ac.tec.vis_u.Models.SectionImage">
+      <point x="80.20000000000005" y="-147.0" />
+      <point x="4000.458333333333" y="393.0" />
+      <point x="4063.041666666667" y="393.0" />
+      <point x="4063.041666666667" y="121.0" />
+      <point x="4040.2083333333335" y="121.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Adapters.OptionAdapterSectionMenu" target="cr.ac.tec.vis_u.Models.Option">
+      <point x="68.0" y="-92.5" />
+      <point x="3432.5676953933744" y="825.0" />
+      <point x="4167.508333333333" y="825.0" />
+      <point x="-80.25" y="58.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Adapters.ImageAdapterSectionMenu" target="cr.ac.tec.vis_u.Holders.ImageHolderSectionMenu">
+      <point x="78.0" y="-114.5" />
+      <point x="0.0" y="180.0" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.LogoSplashActivity" target="cr.ac.tec.vis_u.Parcelables.CareerParcelable">
+      <point x="0.0" y="-92.0" />
+      <point x="151.5" y="1144.0" />
+      <point x="397.77602872670786" y="1144.0" />
+      <point x="-129.0" y="92.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SubsectionActivity" target="cr.ac.tec.vis_u.Models.Subsection">
+      <point x="120.28571428571433" y="-158.0" />
+      <point x="2881.353409679089" y="1134.0" />
+      <point x="2986.401028726708" y="1134.0" />
+      <point x="2986.401028726708" y="825.0" />
+      <point x="2969.0676953933744" y="825.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Adapters.SectionImageAdapter" target="cr.ac.tec.vis_u.Models.SectionImage">
+      <point x="58.0" y="-70.5" />
+      <point x="3949.7083333333335" y="121.0" />
+      <point x="3983.541666666667" y="121.0" />
+      <point x="-56.666666666666664" y="25.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionActivity" target="cr.ac.tec.vis_u.Decorators.SpaceItemDecoration">
+      <point x="-249.0" y="-246.0" />
+      <point x="3183.5676953933744" y="1114.0" />
+      <point x="2590.3801953933744" y="1114.0" />
+      <point x="50.3125" y="37.0" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Holders.OptionHolderSectionMenu" target="cr.ac.tec.vis_u.Parcelables.SectionImageParcelable">
+      <point x="159.33333333333326" y="-180.0" />
+      <point x="3455.901028726708" y="393.0" />
+      <point x="3481.9583333333335" y="393.0" />
+      <point x="-91.25" y="59.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Adapters.ImageAdapterSectionMenu" target="cr.ac.tec.vis_u.Models.Section">
+      <point x="-78.0" y="-114.5" />
+      <point x="2201.703273809523" y="825.0" />
+      <point x="2064.953273809523" y="825.0" />
+      <point x="49.25" y="69.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Holders.ImageHolderCareerMenu" target="cr.ac.tec.vis_u.Parcelables.SectionParcelable">
+      <point x="0.0" y="-191.0" />
+      <point x="1635.703273809523" y="383.0" />
+      <point x="1618.152549171842" y="383.0" />
+      <point x="-103.0" y="103.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SubsectionActivity" target="cr.ac.tec.vis_u.Decorators.SpaceItemDecoration">
+      <point x="-180.42857142857144" y="-158.0" />
+      <point x="2580.639123964803" y="1144.0" />
+      <point x="2550.1301953933744" y="1144.0" />
+      <point x="10.0625" y="37.0" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionImageActivity" target="cr.ac.tec.vis_u.Parcelables.SectionImageParcelable">
+      <point x="-160.39999999999992" y="-147.0" />
+      <point x="3759.8583333333336" y="393.0" />
+      <point x="3664.4583333333335" y="393.0" />
+      <point x="91.25" y="59.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Adapters.ImageAdapterCareerMenu" target="cr.ac.tec.vis_u.Holders.ImageHolderCareerMenu">
+      <point x="73.25" y="-81.5" />
+      <point x="0.0" y="191.0" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionVideoActivity" target="cr.ac.tec.vis_u.YouTubeEventListieners.CustomStateChangeListener">
+      <point x="-68.14285714285722" y="-180.0" />
+      <point x="1044.6331715838505" y="373.0" />
+      <point x="966.7760287267079" y="373.0" />
+      <point x="-73.0" y="103.0" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionVideoActivity" target="cr.ac.tec.vis_u.Parcelables.SectionVideoParcelable">
+      <point x="204.42857142857144" y="-180.0" />
+      <point x="1317.2046001552794" y="393.0" />
+      <point x="2392.9426953933744" y="393.0" />
+      <point x="-90.5" y="59.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionVideoActivity" target="cr.ac.tec.vis_u.Models.SectionVideo">
+      <point x="68.14285714285711" y="-180.0" />
+      <point x="1180.918885869565" y="373.0" />
+      <point x="1321.703273809523" y="373.0" />
+      <point x="-39.5" y="25.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.MainActivity" target="cr.ac.tec.vis_u.Models.Career">
+      <point x="-111.71428571428578" y="-147.0" />
+      <point x="1373.561743012422" y="1134.0" />
+      <point x="730.7760287267079" y="1134.0" />
+      <point x="730.7760287267079" y="825.0" />
+      <point x="706.7760287267079" y="825.0" />
+      <point x="-59.0" y="58.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionMenuActivity" target="cr.ac.tec.vis_u.Parcelables.SectionParcelable">
+      <point x="-184.58333333333326" y="-169.0" />
+      <point x="2091.1926953933744" y="1104.0" />
+      <point x="1906.7032738095231" y="1104.0" />
+      <point x="1906.7032738095231" y="383.0" />
+      <point x="1824.152549171842" y="383.0" />
+      <point x="103.0" y="103.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Adapters.SubsectionAdapter" target="cr.ac.tec.vis_u.Holders.SubsectionHolder">
+      <point x="-58.0" y="-70.5" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.SectionActivity" target="cr.ac.tec.vis_u.Adapters.OptionAdapterSectionMenu">
+      <point x="0.0" y="-246.0" />
+      <point x="68.0" y="92.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Adapters.OptionAdapterSectionMenu" target="cr.ac.tec.vis_u.Holders.OptionHolderSectionMenu">
+      <point x="-68.0" y="-92.5" />
+      <point x="0.0" y="180.0" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.MainActivity" target="cr.ac.tec.vis_u.Parcelables.CareerParcelable">
+      <point x="-167.57142857142856" y="-147.0" />
+      <point x="1317.7046001552794" y="1144.0" />
+      <point x="655.7760287267079" y="1144.0" />
+      <point x="129.0" y="92.5" />
+    </edge>
+    <edge source="cr.ac.tec.vis_u.Activities.InternetConnectionActivity" target="cr.ac.tec.vis_u.Parcelables.CareerParcelable">
+      <point x="0.0" y="-180.0" />
+      <point x="554.5" y="1144.0" />
+      <point x="526.7760287267079" y="1144.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4" x="2322.0" y="1095.75" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

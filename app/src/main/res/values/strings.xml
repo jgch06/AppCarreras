@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name" translatable="false">Vis-U</string>
+    <string name="facebook_app_id" translatable="false">147175372393978</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="title_text">Sign in with Google</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="internet_connection_error">No se puede conectar al internet</string>
+    <string name="internet_connection_error_button_text">Probar de Nuevo</string>
+
+    <!-- Http and Connection error strings -->
+    <string name="server_error">Hubo un error en el servidor, por favor espere hasta que sea arreglado
+    </string>
+    <string name="connection_error">Error de conexión</string>
+    <string name="alert_connection_error">Intento de conexión fallido</string>
+    <string name="alert_connection_error_title">Error de conexión</string>
+
+    <!-- Youtube strings -->
+    <string name="action_settings">Settings</string>
+    <string name="player_error">Error initializing YouTube player</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+    <!--No content strings -->
+    <string name="no_content">No existe contenido en esta página todavía :(</string>
+
+    <!-- About Strings -->
+    <string name="about">Acerca de …</string>
+
+    <string name="about_titleVersion">Versión: Vis-U-1.1.0</string>
+
+    <string name="about_titleDescription">Descripción</string>
+    <string name="about_description2">Actualmente la tecnología tiene un gran impacto en los medios
+        de comunicación, un gran porcentaje de adolescentes tiene acceso a ella. Nuestro objetivo es
+        por medio de una app sustituir el uso del papel que se usa actualmente en las ferias
+        vocacionales que realiza el Instituto Tecnológico de Costa Rica para proporcionar
+        información a los visitantes. De manera interactiva y lúdica nos podemos informar varios
+        aspectos importantes de la carrera como: descripción de la carrera, malla curricular,
+        habilidades, campo laboral, opiniones de la carrera, videos , entre otras.</string>
+
+    <string name="about_titleAuthors">Desarrolladores Vis-U-1.0.0</string>
+    <string name="about_Authors">
+        > Ernesto Lang (Desarrollador)\n> Rafael Zamora (Desarrollador)\n> Kevin Bejarano (Desarrollador)\n> Pablo Blandón (Diseñador)</string>
+
+    <string name="about_titleAuthors2">Desarrolladores Vis-U-1.1.0</string>
+    <string name="about_Authors2">
+        > Jorge Gamboa (Desarrollador)\n> Mauricio Castillo (Desarrollador)\n> Axel Fernández (Desarrollador)\n> Jorge Barquero (Desarrollador)</string>
+
+    <string name="about_titleContributors">Colaboradores</string>
+    <string name="about_Contributors">
+        Se extiende un agradecimiento especial a las siguientes personas por su colaboración con la
+            realización del proyecto:\n\n
+        > Adriana Álvarez Figueroa
+            (Ingeniería en Computación, Centro Académico San José)\n
+        > Gustavo Richmond
+            (Profesor de Ingeniería en Mantenimiento Industrial y la persona responsable de la idea
+            de la aplicación)\n
+        > Ivonne Madrigal
+            (Producción Industrial)
+    </string>
+    <string name="about_titleContact">Contacto</string>
+    <string name="about_Contact">Oficinas Centrales del ITCR\n
+        Teléfono: (506) 2552-5333\n
+        Sitio Web: http://www.tec.ac.cr/Paginas/index.html</string>
+    <string name="about_titleCopyright">Copyright © 2016 - Instituto Tecnológico de Costa Rica
+            (Curso Dispositivos Móviles y Administración de Proyectos)</string>
+    <string name="about_subtitle">Información acerca del desarrollo de la aplicación</string>
+    <string name="images">Imágenes</string>
+    <string name="tec">Tecnológico de Costa RIca</string>
+    <string name="careers">Carreras</string>
+
+
+</resources>

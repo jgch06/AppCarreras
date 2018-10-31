@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 26
+    android.buildToolsVersion '28.0.3'
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    defaultConfig {
+        applicationId "cr.ac.tec.vis_u"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.1"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+}
+
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'com.android.support:appcompat-v7:26.0.0'
+    implementation 'jp.wasabeef:recyclerview-animators:2.2.4'
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'com.github.bumptech.glide:glide:3.5.2'
+    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
+    implementation 'com.android.support:cardview-v7:26.0.0'
+    implementation 'com.google.android.gms:play-services-auth:10.2.1'
+    implementation 'com.android.support:support-v4:26.0.0'
+    implementation 'com.azoft.carousellayoutmanager:carousel:1.1.5'
+    implementation 'com.google.apis:google-api-services-youtube:v3-rev178-1.22.0'
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+}
+apply plugin: 'com.google.gms.google-services'
