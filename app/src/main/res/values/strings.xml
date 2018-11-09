@@ -80,12 +80,12 @@
     <string name="seek_to_hint">Seconds</string>
 
     <!--No content strings -->
-    <string name="no_content">No existe contenido en esta página todavía :(</string>
+    <string name="no_content">No existe contenido en esta página todavía</string>
 
     <!-- About Strings -->
     <string name="about">Acerca de …</string>
 
-    <string name="about_titleVersion">Versión: Vis-U-1.1.0</string>
+    <string name="about_titleVersion">Versión: Vis-U-1.1.1</string>
 
     <string name="about_titleDescription">Descripción</string>
     <string name="about_description2">Actualmente la tecnología tiene un gran impacto en los medios
@@ -100,7 +100,7 @@
     <string name="about_Authors">
         > Ernesto Lang (Desarrollador)\n> Rafael Zamora (Desarrollador)\n> Kevin Bejarano (Desarrollador)\n> Pablo Blandón (Diseñador)</string>
 
-    <string name="about_titleAuthors2">Desarrolladores Vis-U-1.1.0</string>
+    <string name="about_titleAuthors2">Desarrolladores Vis-U-1.1.1</string>
     <string name="about_Authors2">
         > Jorge Gamboa (Desarrollador)\n> Mauricio Castillo (Desarrollador)\n> Axel Fernández (Desarrollador)\n> Jorge Barquero (Desarrollador)</string>
 
